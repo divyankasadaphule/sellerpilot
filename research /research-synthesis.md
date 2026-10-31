@@ -64,7 +64,7 @@ The available evidence supports investigating buyer guidance, seller decision-ma
 
 - Official policies describe intended workflows, while public discussions describe individual reported experiences.
 - Different platforms have different responsibilities and protection policies; their processes are not directly interchangeable.
-- We have not conducted primary interviews or measured the frequency of any reported difficulty.
+- At the time of this secondary research synthesis, primary interviews had not yet been conducted. The secondary evidence alone does not establish the frequency of any reported difficulty. Subsequent interviews are documented separately.
 - We cannot yet conclude that existing tools are inadequate or that AI assistance is necessary.
 
 ### Questions for Competitor Analysis
@@ -76,3 +76,87 @@ The available evidence supports investigating buyer guidance, seller decision-ma
 5. What potential gaps remain after accounting for existing capabilities?
 
 **Source traceability:** See E01-E05 in `secondary-research.md` for original URLs, source details, observations, and limitations.
+
+
+---
+
+## Research Update: Primary Research Integration
+
+**Date:** October 30, 2026
+**Status:** Updated design direction following exploratory interviews
+
+### Primary Research Conducted
+
+Two small ecommerce business owners participated in
+asynchronous qualitative interviews.
+
+**P01: Fashion business owner**
+- Uses Shopify for fulfillment.
+- Reported no significant shipping difficulties.
+- Identified lead generation as the biggest challenge.
+
+**P02: Pooja samagri business owner**
+- Uses Shopify, logistics software, and Excel.
+- Reported missed pickups, delivery delays,
+  incorrect shipments, and logistics follow-ups.
+- Expressed a need for clearer visibility into
+  shipping problems.
+
+### Relationship to Secondary Research
+
+The original secondary research explored
+delivered-but-missing package disputes.
+
+Primary research revealed that shipping-related
+challenges may extend beyond this scenario.
+
+P02's experience suggests an opportunity to explore
+shipping exception visibility and coordination.
+
+P01's contrasting experience indicates that these
+problems should not be assumed to affect all
+small ecommerce sellers.
+
+### Updated Design Direction
+
+SellerPilot will explore a seller-facing shipping
+exception management workspace.
+
+The provisional focus includes:
+
+1. Identifying shipments requiring attention.
+2. Reviewing shipment and tracking information.
+3. Understanding potential next steps.
+4. Supporting seller-controlled communication.
+5. Tracking unresolved shipping issues.
+
+The original delivered-but-missing scenario remains
+part of the secondary research history but is no
+longer the sole focus of the proposed MVP.
+
+### Research Limitations
+
+- Only two exploratory interviews were conducted.
+- Both participants use Shopify.
+- Order volumes and exception frequencies are unknown.
+- Existing logistics products have not been tested
+  directly against the reported challenges.
+- AI assistance has not been validated as necessary.
+- Market demand and product differentiation remain
+  unvalidated.
+
+### Updated Research References
+
+- primary-research.md
+- primary-research-synthesis.md
+- problem-definition.md
+- design-opportunities.md
+
+### Decision
+
+Proceed to Milestone 3 using shipping exception
+visibility, investigation, and coordination as
+the provisional design focus.
+
+This decision reflects exploratory research and
+project learning objectives, not validated market demand.

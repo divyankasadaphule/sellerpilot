@@ -1,203 +1,334 @@
-# SellerPilot: Design Opportunities & Research Handoff
 
-## Purpose
+# SellerPilot | Design Opportunities & Research Handoff
 
-Translate the findings from secondary research, competitor analysis, service journey mapping, and problem definition into provisional design opportunities.
+**Milestone:** 2 – Product Discovery
+**Updated:** October 30, 2026
+**Status:** Ready for exploratory UX design
 
-These opportunities will guide exploratory UX architecture and prototyping during Milestone 3.
+## 1. Purpose
 
-## Provisional Product Direction
+Translate secondary research, competitor analysis, and
+primary research findings into provisional design
+opportunities for SellerPilot.
 
-Explore a connected missing-delivery resolution experience for buyers and small ecommerce merchants.
+This document guides UX architecture, service design,
+interaction design, and prototyping in Milestone 3.
 
-The initial scenario involves a buyer reporting that a package is missing even though carrier tracking indicates delivery.
+## 2. Research Summary
 
-This is a designer-selected scenario, not a validated widespread user problem.
+Two Shopify business owners participated in exploratory
+primary research.
 
-## DO01: Evidence Clarity
+**P01: Fashion business owner**
+- Business started March 2026.
+- Reported no significant shipping issues.
+- Described Shopify fulfillment as seamless.
+- Identified lead generation as the biggest challenge.
 
-**Related research:** E02, E03, FP01, FP02, HMW01.
+**P02: Pooja samagri business owner**
+- Business started August 11, 2025.
+- Reported missed pickups, delayed deliveries,
+  lost shipments, and incorrect deliveries.
+- Uses Shopify, logistics software, and Excel.
+- Requested better visibility into shipping delays
+  and pickup problems.
 
-**Potential user need:** Buyers and merchants may benefit from understanding what the available delivery information does and does not establish.
+### Research Interpretation
 
-**Design opportunity:** Explore ways to present carrier tracking, buyer reports, timestamps, and unknown information clearly.
+Shipping challenges are not universal among small sellers.
 
-**Possible interaction concepts:**
-- Delivery evidence timeline.
-- Clearly attributed information sources.
-- Visible distinction between reported, confirmed, and unknown information.
+P02's experience provides initial evidence of logistics
+coordination difficulties, while P01's experience
+challenges broad assumptions about seller needs.
 
-**Validation question:** Can users accurately interpret the information without assuming that a delivered status proves receipt?
+The differences may relate to order volume, logistics
+arrangements, business maturity, or other factors.
 
-## DO02: Resolution Guidance
+These explanations have not been validated.
 
-**Related research:** E01, E04, E05, FP03, HMW02.
+## 3. Provisional Product Direction
 
-**Potential user need:** Buyers and merchants may benefit from understanding relevant next steps and responsibilities.
+SellerPilot will explore an AI-assisted shipping exception
+management workspace for small ecommerce sellers.
 
-**Design opportunity:** Explore contextual guidance that explains possible actions without guaranteeing outcomes.
+The initial experience will focus on helping sellers:
 
-**Possible interaction concepts:**
-- Guided investigation checklist.
-- Explanation of possible resolution options.
-- Human review before consequential actions.
+1. Identify shipments requiring attention.
+2. Investigate shipping exceptions.
+3. Understand available information and possible actions.
+4. Coordinate with customers and logistics providers.
+5. Track issues through resolution.
 
-**Validation question:** Can users identify appropriate next steps and recognize when additional information is required?
+This is an evidence-informed design concept,
+not a validated product solution.
 
-## DO03: Transparent Communication
+## 4. Design Opportunities
 
-**Related research:** E02, E03, FP01, FP02, HMW03.
+### DO01: Shipping Exception Visibility
 
-**Potential user need:** Buyers and merchants may benefit from clearer communication about case progress and uncertainty.
+**Evidence:** P02 reported missed pickups, delays,
+and the need to continually monitor shipments.
 
-**Design opportunity:** Explore a shared case-status experience with role-appropriate information.
+**Potential user need:**
+Sellers experiencing recurring logistics problems may
+need clearer visibility into shipments requiring action.
 
-**Possible interaction concepts:**
-- Buyer-facing case-status page.
-- Merchant-facing communication history.
-- Clear next-step and progress updates.
+**Design opportunity:**
+Explore a centralized view of shipping exceptions.
 
-**Validation question:** Can both user groups understand the current case status and what will happen next?
+**Possible concepts:**
+- Exception overview dashboard.
+- Shipment status indicators.
+- Delayed pickup notifications.
+- Orders requiring attention.
 
-## Preliminary Scope
+**Validation question:**
+Can sellers identify which shipments need attention
+and understand why they have been flagged?
 
-**Merchant experience (primary prototype focus):**
-- Review a missing-delivery case.
-- Examine available evidence.
-- Consider possible next steps.
-- Communicate an update.
+### DO02: Shipment Investigation
 
-**Buyer experience (supporting prototype flow):**
-- Report a missing package.
-- View case progress.
-- Understand the merchant's response.
+**Evidence:** P02 described incorrect deliveries,
+shipping delays, and logistics-related problems.
 
-These are candidate interactions, not committed MVP requirements.
+**Potential user need:**
+Sellers may need to understand what happened before
+deciding how to respond.
 
-## Design Constraints
+**Design opportunity:**
+Explore a structured shipment investigation experience.
 
-- Use fictional or simulated order data.
-- Clearly attribute carrier information and buyer statements.
-- Do not treat tracking status as proof of receipt.
-- Protect private merchant information.
-- Do not automate refunds, denials, or other consequential decisions.
-- Do not assume AI is necessary.
-- Avoid claiming the prototype integrates with live ecommerce platforms.
+**Possible concepts:**
+- Shipment timeline.
+- Tracking event history.
+- Carrier information.
+- Clear distinction between confirmed information,
+  reported issues, and unknowns.
 
-## Evidence and Limitations
+**Validation question:**
+Can sellers understand the shipment issue and identify
+information needed for further investigation?
 
-All design opportunities are hypotheses derived from secondary research and designer interpretation.
+### DO03: Resolution Guidance
 
-No primary interviews, observed workflows, or usability testing have validated these needs.
+**Evidence:** P02 described coordinating replacement
+fulfillment and a logistics claim after an incorrect
+delivery.
 
-Source references:
-- secondary-research.md (E01–E05)
-- competitor-analysis.md (C01–C03)
-- service-journey.md (FP01–FP03)
-- problem-definition.md (HMW01–HMW03)
+**Potential user need:**
+Sellers may benefit from understanding available
+resolution options and outstanding actions.
 
-Original URLs and source details are maintained in the referenced research documents.
+**Design opportunity:**
+Explore contextual next-step guidance.
 
+**Possible concepts:**
+- Investigation checklist.
+- Suggested next actions.
+- AI-assisted case summaries.
+- Human approval before consequential actions.
 
+**Validation question:**
+Can sellers identify appropriate next steps without
+mistaking suggestions for verified decisions?
 
-## Research-to-Design Handoff
+### DO04: Communication and Coordination
 
-### 1. Research Outcome
+**Evidence:** P02 described communicating with a customer
+and logistics provider to resolve an incorrect delivery.
 
-Secondary research identified a specific scenario worth exploring: a buyer reports that a package is missing although carrier tracking indicates delivery.
+**Potential user need:**
+Sellers may need a clearer way to coordinate
+communication during shipping investigations.
 
-The research does not establish that existing products are inadequate or that this is a widespread unmet need.
+**Design opportunity:**
+Explore seller-controlled communication support.
 
-### 2. Provisional Product Concept
+**Possible concepts:**
+- Customer response drafts.
+- Communication history.
+- Logistics follow-up reminders.
+- Case notes.
 
-SellerPilot is an exploratory two-sided missing-delivery resolution experience.
+**Validation question:**
+Can sellers prepare an accurate customer update and
+identify who needs to be contacted next?
 
-It will consider both buyer and merchant needs, with a merchant investigation flow and a lightweight buyer reporting and status flow.
+### DO05: Resolution Tracking
 
-### 3. User Roles for Milestone 3
+**Evidence:** P02 described repeated monitoring and
+follow-up during logistics problems.
 
-**Merchant**
-- Reviews reported delivery issues.
-- Examines available evidence.
-- Considers possible next steps.
-- Communicates case updates.
+**Potential user need:**
+Sellers may benefit from tracking unresolved shipment
+issues and outstanding actions.
 
-**Buyer**
-- Reports a missing package.
-- Provides relevant information.
-- Reviews case progress.
-- Receives an explanation of the outcome.
+**Design opportunity:**
+Explore a structured case-management workflow.
 
-### 4. Candidate User Flows
+**Possible concepts:**
+- Open, investigating, and resolved statuses.
+- Outstanding action indicators.
+- Case activity timeline.
+- Resolution notes.
 
-**Merchant flow:**
-Open case → Review evidence → Identify unknowns → Consider options → Communicate update.
+**Validation question:**
+Can sellers determine the current case status and
+what remains to be done?
 
-**Buyer flow:**
-Open order → Report missing package → Provide details → Track case → View response.
+## 5. Preliminary Prioritization
 
-These are proposed flows, not observed user behavior.
-
-### 5. Information Architecture Questions
-
-- What information belongs in a case overview?
-- How should evidence sources and timestamps be organized?
-- Which information should buyers and merchants share?
-- Which merchant notes should remain private?
-- How should status changes and next actions be represented?
-
-### 6. Design Opportunities
-
-| ID | Opportunity | Proposed Exploration |
+| Priority | Opportunity | Rationale |
 |---|---|---|
-| DO01 | Evidence clarity | Evidence timeline and source attribution |
-| DO02 | Resolution guidance | Investigation checklist and option explanations |
-| DO03 | Transparent communication | Role-appropriate case status and updates |
+| P1 | DO01: Exception visibility | Directly relates to P02's requested improvement |
+| P1 | DO02: Investigation | Supports understanding shipping problems |
+| P1 | DO03: Resolution guidance | Supports seller decision-making |
+| P2 | DO04: Communication | Relevant to P02's incorrect-delivery example |
+| P2 | DO05: Resolution tracking | Potential support for ongoing follow-ups |
 
-These are candidate concepts, not validated requirements.
+Priorities are designer-selected for exploratory prototyping,
+not validated user preferences.
 
-### 7. Milestone 3 Deliverables
+## 6. MVP Scope
 
-1. Provisional user roles and goals.
-2. MVP scope and exclusions.
+### Primary Experience: Seller
+
+The seller can:
+
+- View shipments requiring attention.
+- Open an exception case.
+- Review shipment details and tracking evidence.
+- Explore suggested next steps.
+- Prepare a customer communication.
+- Update and track case status.
+
+### External Participants
+
+**Logistics provider:**
+Responsible for physical pickup, transportation,
+tracking updates, and delivery.
+
+**Customer:**
+Receives order updates and may report problems.
+
+Neither will have a dedicated SellerPilot interface
+in the initial prototype.
+
+### Out of Scope
+
+- Live Shopify integration.
+- Live logistics-provider integrations.
+- Real customer messaging.
+- Automated refunds or replacements.
+- Full inventory management.
+- Accounting and marketing.
+- Buyer-facing application.
+
+## 7. Design Constraints
+
+- Use fictional order and shipment data.
+- Attribute information to its source.
+- Distinguish confirmed facts from reported issues.
+- Avoid unsupported shipping or delivery claims.
+- Do not automate consequential decisions.
+- Keep sellers in control of actions.
+- Treat AI suggestions as potentially incorrect.
+- Design accessible and understandable interfaces.
+- Do not claim live integrations exist.
+
+## 8. Research-to-Design Handoff
+
+### Primary User
+
+Small ecommerce seller personally managing fulfillment
+and recurring shipping exceptions.
+
+### Primary Scenario
+
+A seller needs to identify and investigate a shipment
+that has not progressed as expected.
+
+The prototype may explore missed pickup, delayed
+delivery, or incorrect-delivery scenarios.
+
+### Proposed Seller Flow
+
+Open exception overview
+→ Select affected shipment
+→ Review shipment information
+→ Understand the issue
+→ Identify possible actions
+→ Prepare follow-up
+→ Track resolution
+
+This is a proposed workflow, not an observed sequence.
+
+## 9. Information Architecture Questions
+
+- How should exceptions be organized and prioritized?
+- What information belongs in the shipment overview?
+- How should tracking events be displayed?
+- How should confirmed facts and unknowns be distinguished?
+- Where should suggested next steps appear?
+- How should unresolved actions be represented?
+- How should case history and communication be organized?
+
+## 10. Milestone 3 Deliverables
+
+1. As-is seller journey map.
+2. Service blueprint.
 3. Information architecture.
-4. Merchant user flow.
-5. Buyer user flow.
-6. Low-fidelity wireframes in Figma.
-7. Initial interaction decisions and rationale.
+4. Seller task flows and user flows.
+5. Low-fidelity wireframes.
+6. Interaction design rationale.
+7. Initial accessibility considerations.
 
-### 8. Prototype Constraints
+## 11. Evaluation Plan
 
-- Fictional case and order data only.
-- No live Shopify, Etsy, eBay, or carrier integrations.
-- No automatic refunds or dispute decisions.
-- No unsupported claims of AI capabilities.
-- Clearly distinguish reported facts, carrier records, and unknowns.
-- Keep buyer and merchant permissions separate.
+Later usability testing will involve:
 
-### 9. Evaluation Plan
+- Two small ecommerce business owners.
+- Three non-business owners.
 
-Later usability testing will assess whether participants can:
+Evaluation will explore:
 
-- Identify contradictory delivery information.
-- Distinguish evidence from assumptions.
-- Understand available next steps.
-- Interpret case status and communication.
+- Exception identification.
+- Shipment information comprehension.
+- Understanding of next-step options.
+- Navigation and task completion.
+- Communication clarity.
+- Resolution-status comprehension.
 
-Testing with non-merchants will evaluate interface comprehension, not validate real merchant needs.
+Seller-specific feedback will be distinguished
+from general interface usability feedback.
 
-### 10. Research Traceability
+## 12. Evidence and Limitations
 
-- E01–E05: secondary-research.md
-- C01–C03: competitor-analysis.md
-- FP01–FP03: service-journey.md
-- HMW01–HMW03: problem-definition.md
-- DO01–DO03: design-opportunities.md
+Primary research:
+- primary-research.md
+- primary-research-synthesis.md
 
-Original source URLs, dates where available, and limitations are retained in the research files.
+Secondary research:
+- secondary-research.md
+- competitor-analysis.md
+- service-journey.md
 
-### Handoff Status
+Problem definition:
+- problem-definition.md
 
-Ready to begin exploratory UX architecture and low-fidelity design.
+Historical direction:
+- problem-definition-initial.md
 
-Product need, differentiation, and effectiveness remain unvalidated.
+The existing research does not establish that SellerPilot
+offers capabilities unavailable in competing products.
+
+The need for AI, market demand, and effectiveness of
+the proposed workflows remain unvalidated.
+
+## 13. Handoff Decision
+
+Proceed to Milestone 3 with shipping exception visibility
+and coordination as the initial design focus.
+
+This direction is provisional and may be refined through
+prototype evaluation and further research.

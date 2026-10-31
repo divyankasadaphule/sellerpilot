@@ -44,7 +44,7 @@ Original URLs and source details are recorded in `secondary-research.md` and `co
 
 This journey does not represent a universal workflow across Etsy, eBay, and Shopify. Their policies and responsibilities differ.
 
-No primary interviews, observational studies, or hands-on workflow tests have been conducted. Potential pain points remain hypotheses.
+At the time this preliminary journey was created, no primary interviews or observed workflow tests had been conducted. Two exploratory seller interviews were subsequently completed and documented separately.
 
 
 
@@ -134,7 +134,7 @@ These are **opportunity hypotheses**, not validated requirements.
 
 ## Research Limitations
 
-This analysis uses secondary sources and a preliminary service journey. No primary user interviews or observed usability sessions have been conducted.
+At the time this preliminary journey was created, no primary interviews or observed workflow tests had been conducted. Two exploratory seller interviews were subsequently completed and documented separately.
 
 Evidence references and original source URLs are recorded in `secondary-research.md` (E01–E05).
 
@@ -255,7 +255,7 @@ These are preliminary design considerations, not validated requirements.
 
 ### Remaining Limitations
 
-No primary interviews or observed merchant workflows have been conducted. The journey is illustrative rather than a verified account of one complete resolution process.
+This original journey was developed before the primary interviews and remains an illustrative secondary-research artifact, not an observed end-to-end workflow.
 
 Potential friction points and product differentiation remain unvalidated.
 
@@ -266,3 +266,114 @@ Use the provisional scenario to draft a problem statement, identify assumptions,
 ### Source Traceability
 
 See secondary-research.md (E01–E05) and competitor-analysis.md (C01–C03) for original URLs, source details, and limitations.
+
+
+
+---
+
+## Research Update: Shipping Exception Journey
+
+**Date:** October 30, 2026
+**Status:** Historical journey retained; design focus updated
+
+### Why the Direction Changed
+
+The original service journey explored missing-delivery
+disputes using secondary research.
+
+Subsequent interviews with two Shopify sellers revealed
+contrasting operational experiences.
+
+P01 reported no significant shipping difficulties.
+
+P02 reported missed pickups, delivery delays, incorrect
+shipments, and repeated logistics follow-ups.
+
+These findings suggest exploring a broader shipping
+exception workflow rather than focusing exclusively
+on delivered-but-missing disputes.
+
+### Updated Primary User
+
+Small ecommerce sellers who personally coordinate
+fulfillment and experience recurring shipping exceptions
+involving external logistics providers.
+
+This user segment remains provisional.
+
+### Proposed Journey for Milestone 3
+
+The next journey map will explore:
+
+1. Order preparation and shipping arrangement.
+2. Carrier pickup or shipment dispatch.
+3. Shipping exception occurs or becomes visible.
+4. Seller identifies and investigates the issue.
+5. Seller coordinates with the logistics provider
+   and, when necessary, the customer.
+6. Seller follows up and tracks resolution.
+
+These stages are an initial analytical structure,
+not a verified end-to-end participant journey.
+
+### Service Participants
+
+**Seller:** Primary user of SellerPilot.
+
+**Logistics provider:** External participant responsible
+for pickup, transportation, tracking, and delivery.
+
+**Customer:** May report problems or require updates.
+
+**Ecommerce platform:** Provides order information
+and existing fulfillment capabilities.
+
+Only the seller-facing experience is included
+in the initial SellerPilot MVP.
+
+### Updated Research Questions
+
+- When and how do sellers first notice shipping problems?
+- What information do sellers check during investigation?
+- Which actions require contacting logistics providers?
+- How do sellers remember unresolved follow-ups?
+- What information is needed before contacting customers?
+- Which parts of the workflow are already supported
+  effectively by existing tools?
+
+### Design Implications
+
+Milestone 3 will explore:
+
+- An as-is seller journey map.
+- A service blueprint.
+- Shipping exception information architecture.
+- Seller task flows and user flows.
+- Low-fidelity wireframes.
+
+The original missing-delivery journey remains valuable
+background research, but its previous FP02 prioritization
+is no longer SellerPilot's current design decision.
+
+### Evidence and Limitations
+
+Primary research:
+- primary-research.md
+- primary-research-synthesis.md
+
+Current product direction:
+- problem-definition.md
+- design-opportunities.md
+
+The two interviews do not establish how frequently
+these problems occur across ecommerce businesses.
+
+The proposed journey stages require further validation.
+
+### Decision
+
+Proceed with a seller-facing shipping exception
+management concept for exploratory UX design.
+
+The earlier missing-delivery scenario remains
+documented as part of the research history.

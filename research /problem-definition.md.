@@ -1,0 +1,298 @@
+
+# SellerPilot | Problem Definition
+
+**Milestone:** 2 – Product Discovery
+**Status:** Provisional, evidence-informed design direction
+**Updated:** October 30, 2026
+
+## 1. Purpose
+
+Define a focused product problem using secondary research,
+competitor analysis, and exploratory interviews with two
+small ecommerce business owners.
+
+This document establishes the direction for UX architecture,
+interaction design, prototyping, and usability testing.
+
+## 2. Research Background
+
+Initial secondary research explored order-related issues,
+particularly cases where tracking indicated delivery but
+the customer reported a missing package.
+
+Primary research introduced additional perspectives.
+
+P01, a fashion business owner operating since March 2026,
+reported smooth Shopify fulfillment and identified lead
+generation as her biggest challenge.
+
+P02, a pooja samagri business owner operating since
+August 11, 2025, described recurring shipping problems,
+including missed pickups, delayed deliveries, incorrect
+shipments, and coordination with logistics providers.
+
+These contrasting experiences informed a narrower
+provisional target audience.
+
+## 3. Provisional Target User
+
+Small ecommerce business owners or operators who personally
+manage fulfillment and experience recurring shipping
+exceptions involving external logistics providers.
+
+Not all small ecommerce sellers experience these problems.
+
+The target segment remains a design hypothesis.
+
+## 4. Working Problem Statement
+
+Small ecommerce sellers experiencing recurring shipping
+exceptions may struggle to identify, investigate, and
+coordinate the resolution of delayed pickups, delivery
+errors, and other shipment problems.
+
+These activities can require repeated monitoring,
+follow-ups, and coordination alongside other business
+responsibilities.
+
+**Status:** Exploratory problem hypothesis.
+
+## 5. Evidence Supporting Exploration
+
+### Primary Research
+
+**P01**
+- No significant shipping problems reported.
+- Shopify described as seamless for current operations.
+- Lead generation identified as the biggest challenge.
+
+**P02**
+- Reported missed pickups and delayed deliveries.
+- Described incorrect shipments and logistics claims.
+- Uses Shopify, logistics software, and Excel.
+- Expressed a need for better visibility into delayed
+  orders and pickup problems.
+
+### Secondary Research
+
+Existing research documented ecommerce order resolution
+processes and shipping exception capabilities.
+
+Relevant evidence is recorded in:
+
+- secondary-research.md (E01–E05)
+- competitor-analysis.md (C01–C03)
+- service-journey.md (FP01–FP03)
+
+These sources were originally gathered around a narrower
+delivered-but-missing scenario. They provide background,
+but do not independently validate the expanded problem.
+
+### Research Limitations
+
+- Two exploratory participants.
+- Both participants use Shopify.
+- Participants recruited through personal contacts.
+- Order volumes were not collected.
+- No direct observation of operational workflows.
+- Existing logistics tools have not been evaluated
+  hands-on for the reported problems.
+- Findings cannot establish market-wide demand.
+
+## 6. How Might We Questions
+
+### HMW01: Shipping Exception Visibility
+
+How might we help sellers identify shipments that
+require attention without repeatedly checking
+multiple sources?
+
+### HMW02: Investigation and Decision Support
+
+How might we help sellers understand shipping
+problems and determine appropriate next steps
+using available information?
+
+### HMW03: Coordination and Resolution
+
+How might we help sellers coordinate with logistics
+providers and customers while keeping track of
+unresolved shipping issues?
+
+These questions represent design opportunities,
+not validated product requirements.
+
+## 7. Proposed Product Direction
+
+SellerPilot will explore a seller-facing shipping
+exception management workspace.
+
+Potential capabilities include:
+
+1. An overview of shipments requiring attention.
+2. Shipment details and exception history.
+3. Clear presentation of available tracking evidence.
+4. Suggested investigation or resolution steps.
+5. Customer communication drafting.
+6. Issue status and resolution tracking.
+
+These capabilities will be evaluated during
+interaction design and usability testing.
+
+## 8. Role of AI
+
+AI may assist with:
+
+- Summarizing shipment information.
+- Highlighting missing or conflicting details.
+- Suggesting potential next steps.
+- Drafting customer communications.
+
+AI is not assumed to be necessary.
+
+The seller remains responsible for reviewing
+suggestions and approving consequential actions.
+
+## 9. MVP Scope
+
+### In Scope
+
+- Seller-facing exception overview.
+- Selected missed-pickup and delivery-error scenarios.
+- Shipment investigation details.
+- Suggested next steps.
+- Communication drafting.
+- Case resolution tracking.
+- Simulated order and logistics data.
+
+### Out of Scope
+
+- Live Shopify or carrier integrations.
+- Real customer messaging.
+- Autonomous refunds or replacements.
+- Full inventory management.
+- Marketing and lead generation.
+- Accounting.
+- Dedicated buyer-facing application.
+- Dedicated logistics-provider application.
+
+## 10. Design Principles
+
+1. Distinguish confirmed information from reports
+   and assumptions.
+2. Make shipping exceptions understandable.
+3. Support human decision-making.
+4. Avoid presenting AI suggestions as verified facts.
+5. Preserve relevant information sources and timestamps.
+6. Avoid promising outcomes that depend on external
+   logistics providers or platform policies.
+7. Design for accessibility and clear communication.
+
+## 11. Preliminary Design Goals
+
+### Goal 1: Identify Exceptions
+
+Help sellers recognize shipments requiring attention.
+
+**Proposed evaluation:**
+Can participants locate a shipment with an unresolved
+pickup or delivery problem?
+
+### Goal 2: Understand the Problem
+
+Help sellers interpret the shipment status, relevant
+history, and available evidence.
+
+**Proposed evaluation:**
+Can participants explain what happened, what is known,
+and what remains uncertain?
+
+### Goal 3: Determine Next Steps
+
+Help sellers identify appropriate actions.
+
+**Proposed evaluation:**
+Can participants choose a reasonable next step and
+explain their decision?
+
+### Goal 4: Track Resolution
+
+Help sellers understand whether an issue remains
+open, is being investigated, or has been resolved.
+
+**Proposed evaluation:**
+Can participants identify the current case status
+and outstanding actions?
+
+## 12. Usability Testing Plan
+
+Five participants are planned:
+
+- Two small ecommerce business owners.
+- Three non-business owners.
+
+Business owners will help evaluate workflow relevance,
+terminology, and operational realism.
+
+Non-business owners will help evaluate general interface
+clarity, navigation, and task comprehension.
+
+Results will be analyzed separately.
+
+Usability testing will not establish broad market demand.
+
+## 13. Assumptions Requiring Validation
+
+1. Sellers may have difficulty identifying exceptions
+   promptly using existing tools.
+2. Consolidated shipment context may reduce confusion.
+3. Structured investigation steps may improve clarity.
+4. Sellers may benefit from tracking unresolved issues
+   in one place.
+5. AI assistance may provide additional value beyond
+   conventional interface design.
+
+These assumptions have not yet been validated.
+
+## 14. Design Decision
+
+Proceed with shipping exception visibility and
+coordination as SellerPilot's initial design focus.
+
+This decision is informed by:
+
+- P02's reported operational difficulties.
+- Contrasting findings from P01.
+- Existing secondary research.
+- The project's objective of exploring complex B2B
+  workflows, service design, and AI-assisted UX.
+
+This is a design exploration decision, not proof
+of an unmet market need.
+
+## 15. Next Steps
+
+Milestone 3: UX Architecture and Interaction Design
+
+1. Create the as-is seller journey map.
+2. Develop the service blueprint.
+3. Define information architecture.
+4. Create task flows and user flows.
+5. Develop low-fidelity wireframes.
+
+## 16. Research Traceability
+
+Primary research:
+- primary-research.md
+- primary-research-synthesis.md
+
+Secondary research:
+- secondary-research.md
+- competitor-analysis.md
+- service-journey.md
+
+Historical problem definition:
+- problem-definition-initial.md
+
+The original delivered-but-missing investigation
+remains documented as an earlier design direction.
